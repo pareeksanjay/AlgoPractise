@@ -1,7 +1,5 @@
 package com.test.demo;
 
-import static java.lang.Math.max;
-
 public class AmazonTest {
     public static void main(String[] args) {
         int[] arr = {5,5,4,5,4};
