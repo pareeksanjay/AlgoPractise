@@ -13,10 +13,12 @@ public class FindPairs {
         } else if (arr[low] + arr[high]<sum) {
             low++;
         }else if (arr[low]+arr[high]==sum){
-            System.out.println("Sum is: "+sum+" Arrays are: ("+arr[low]+","+arr[high]+")");
+            System.out.printf("Sum of %d: Pairs are: (%d,%d)%n", sum, arr[low], arr[high]);
             low++;
             high--;
         }
     }
     }
 }
+//time complexity n
+//space complexity n
