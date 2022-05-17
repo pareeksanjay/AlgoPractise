@@ -1,8 +1,8 @@
 package com.test.demo.string;
 
-public class RomanNumber {
-    public static void main(String args[]) {
-        RomanNumber ob = new RomanNumber();
+public class RomanNumberToNumber {
+    public static void main(String[] args) {
+        RomanNumberToNumber ob = new RomanNumberToNumber();
 
         // Considering inputs given are valid
         String str = "MCMIV";
@@ -32,7 +32,7 @@ public class RomanNumber {
     }
 
     // Finds decimal value of a
-    // given romal numeral
+    // given roman numeral
     private int romanToDecimal(String str) {
         // Initialize result
         int res = 0;

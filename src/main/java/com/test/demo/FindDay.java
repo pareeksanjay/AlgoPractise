@@ -1,8 +1,9 @@
 package com.test.demo;
 
+import com.test.demo.linkedlist.ReverseLinkedList;
+
+import java.awt.*;
 import java.util.Calendar;
-import java.util.Date;
-import java.util.Locale;
 
 /*
 Java Calendar class is an abstract class that provides methods for converting date
@@ -24,10 +25,10 @@ public class FindDay {
         //Code Here
 
         Calendar c = Calendar.getInstance();
-        if(month==12){
-            month=11;
+        if (month == 12) {
+            month = 11;
         }
-        c.set(year,month , date);
+        c.set(year, month, date);
         System.out.println(c.getTime());
         int day = c.get(Calendar.DAY_OF_WEEK);
         System.out.println(day);
@@ -37,4 +38,7 @@ public class FindDay {
         }
         return "DEFAULT";
     }
+
+
+
 }

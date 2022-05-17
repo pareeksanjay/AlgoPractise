@@ -30,9 +30,9 @@ public class ArraySortSimilarNumbers {
         /*array[end]=array[start]+array[end]; //1
         array[end] = array[start]; //1
         array[start] =array[end]-array[start];*/
-        array[start]=array[start]+array[end];
-        array[end]=array[start]-array[end];
-        array[start]=array[start]-array[end];
+        array[start]=array[start]^array[end];
+        array[end]=array[start]^array[end];
+        array[start]=array[start]^array[end];
 
         return array;
     }
